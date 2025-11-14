@@ -88,7 +88,8 @@ export default function App() {
         <div className="brand">
           <h1>Peek-a-Buy</h1>
           <div className="logo-wrap" title="Peek-a-Buy">
-            <AnimatedEyes width={140} height={44} />
+            <AnimatedEyes width={44} height={44} />
+
 
           </div>
         </div>
