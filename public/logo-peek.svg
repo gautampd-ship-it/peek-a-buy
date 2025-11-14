@@ -1,21 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="48" height="48">
-  <defs>
-    <radialGradient id="g" cx="50%" cy="40%">
-      <stop offset="0%" stop-color="#ffd95a"/>
-      <stop offset="100%" stop-color="#ff7a59"/>
-    </radialGradient>
-  </defs>
-  <rect width="120" height="40" rx="8" fill="#0f1720"/>
-  <!-- left eye -->
-  <g id="left-eye" transform="translate(28,20)">
-    <circle cx="0" cy="0" r="8" fill="#111827"/>
-    <circle cx="0" cy="0" r="5" fill="#fff"/>
-    <circle cx="0" cy="0" r="2.6" fill="#ef4444"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- transparent background; two simple eyes so tab icon isn't broken -->
+  <rect width="100%" height="100%" fill="none"/>
+  <g transform="translate(8,10)">
+    <ellipse cx="10" cy="18" rx="10" ry="10" fill="#FFFFFF" />
+    <circle cx="8" cy="17" r="4" fill="#071522" />
   </g>
-  <!-- right eye -->
-  <g id="right-eye" transform="translate(72,20)">
-    <circle cx="0" cy="0" r="8" fill="#111827"/>
-    <circle cx="0" cy="0" r="5" fill="#fff"/>
-    <circle cx="0" cy="0" r="2.6" fill="#ef4444"/>
+  <g transform="translate(34,10)">
+    <ellipse cx="10" cy="18" rx="10" ry="10" fill="#FFFFFF" />
+    <circle cx="12" cy="17" r="4" fill="#071522" />
   </g>
 </svg>

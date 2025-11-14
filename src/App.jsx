@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import AnimatedEyes from "./components/AnimatedEyes";
+
 
 /**
  * Peek-a-Buy - final v1.0 UI (single-file App)
@@ -86,7 +88,8 @@ export default function App() {
         <div className="brand">
           <h1>Peek-a-Buy</h1>
           <div className="logo-wrap" title="Peek-a-Buy">
-            <img src="/logo-peek.svg" alt="Peek-a-Buy logo" className="peek-logo" />
+            <AnimatedEyes width={140} height={44} />
+
           </div>
         </div>
         <p className="subtitle">Compare dish prices & ratings across Swiggy and Zomato — Bangalore (prototype)</p>
